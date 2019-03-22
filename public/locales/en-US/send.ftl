@@ -52,8 +52,8 @@ passwordSetError = This password could not be set
 -firefox = Firefox
 -mozilla = Mozilla
 
-introTitle = Simple, private file sharing
-introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
+introTitle = Just fuckin send it!
+introDescription = Spencer Send lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
@@ -111,7 +111,7 @@ expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Select files to upload
 uploadButton = Upload
 # the first part of the string 'Drag and drop files or click to send up to 1GB'
-dragAndDropFiles = Drag and drop files
+dragAndDropFiles = Yo drag your files here homie
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = or click to send up to { $size }
