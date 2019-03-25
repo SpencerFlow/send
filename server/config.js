@@ -16,7 +16,7 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: Array,
-    default: [300, 3600, 86400, 604800],
+    default: [60, 120, 180, 240, 300, 600, 12300, 3600],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
@@ -112,7 +112,7 @@ const conf = convict({
   },
   anon_max_file_size: {
     format: Number,
-    default: 1024 * 1024 * 1024,
+    default: 1024 * 1024 * 1024 * 10,
     env: 'ANON_MAX_FILE_SIZE'
   },
   l10n_dev: {
